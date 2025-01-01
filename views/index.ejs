@@ -1,111 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="/styles/index.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <title>Green Plant Initiative</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link href="/styles/index.css" rel="stylesheet" />
 </head>
+
 <body>
-  <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
-    <div class="container-fluid mx-sm-5">
-
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+    <div class="container">
       <a class="navbar-brand" href="#">
-        <img src="https://gepi.co.th/wp-content/uploads/2019/06/greenplant_logo-e1667359869723.png" alt="Logo" class="logo"/>
+        <img src="https://gepi.co.th/wp-content/uploads/2019/06/greenplant_logo-e1667359869723.png" alt="Logo" />
       </a>
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">
-              <i class="fa-solid fa-house me-1"></i> Home
-            </a>
+            <a class="nav-link" href="#"><i class="fa-solid fa-house me-1"></i>หน้าแรก</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
-              <i class="fa-solid fa-gear me-1"></i> Services
-            </a>
+            <a class="nav-link" href="#"><i class="fa-solid fa-gear me-1"></i>บริการ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
-              <i class="fa-solid fa-clipboard-list me-1"></i> Project
-            </a>
+            <a class="nav-link" href="#"><i class="fa-solid fa-clipboard-list me-1"></i>โครงการ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
-              <i class="fa-solid fa-envelope me-1"></i> Contact
-            </a>
+            <a class="nav-link" href="#"><i class="fa-solid fa-envelope me-1"></i>ติดต่อ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
-              <i class="fa-solid fa-chart-line me-1"></i> Presentation
-            </a>
+            <a class="nav-link" href="#"><i class="fa-solid fa-chart-line me-1"></i>นำเสนอ</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div id="carouselExampleIndicators" class="carousel slide fullscreen-carousel" data-bs-ride="carousel">
+  <div id="heroCarousel" class="carousel slide hero-carousel" data-bs-ride="carousel">
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-        aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-        aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-        aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3"></button>
     </div>
-
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img
-          src="https://i.pinimg.com/originals/bc/a1/90/bca19096a0def30ba652264dbce98d88.jpg"
-          class="d-block w-100" alt="Slide 1" />
+        <img src="https://i.pinimg.com/originals/bc/a1/90/bca19096a0def30ba652264dbce98d88.jpg" class="d-block w-100"
+          alt="Slide 1" />
       </div>
-
       <div class="carousel-item">
-        <img src="https://wallpapercat.com/w/full/2/1/3/5818553-1920x1080-desktop-hd-laptop-wallpaper-image.jpg" class="d-block w-100"
-          alt="Slide 2" />
+        <img src="https://wallpapercat.com/w/full/2/1/3/5818553-1920x1080-desktop-hd-laptop-wallpaper-image.jpg"
+          class="d-block w-100" alt="Slide 2" />
       </div>
-
       <div class="carousel-item">
-        <img src="https://images.unsplash.com/photo-1541516160071-4bb0c5af65ba?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHBob3RvZ3JhcGh5fGVufDB8fDB8fHww" class="d-block w-100"
+        <img src="https://images.unsplash.com/photo-1541516160071-4bb0c5af65ba?fm=jpg&q=60&w=3000" class="d-block w-100"
           alt="Slide 3" />
       </div>
-
       <div class="carousel-item">
-        <img src="https://c.wallhere.com/photos/31/97/1920x1080_px_nature_reflection_sky_sun_sunlight_sunset_Trees-1043674.jpg!d" class="d-block w-100"
-          alt="Slide 4" />
+        <img
+          src="https://c.wallhere.com/photos/31/97/1920x1080_px_nature_reflection_sky_sun_sunlight_sunset_Trees-1043674.jpg!d"
+          class="d-block w-100" alt="Slide 4" />
       </div>
     </div>
-
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-      data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-      data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
     </button>
   </div>
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
 
+  <section class="content-section">
+    <div class="content-container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <img src="https://gepi.co.th/wp-content/uploads/2022/11/IMG_9873.jpg" alt="เกษตรกรรมยั่งยืน"
+            class="content-image" />
+        </div>
+        <div class="col-lg-6">
+          <h2 class="section-title">เกษตรกรรมเพื่อความยั่งยืน</h2>
+          <p class="quote-text">
+            การทำเกษตรไม่ใช่การปลูกพืชโดยรอเพียงฤดูกาล แต่ต้องเป็นการเพียรปฏิบัติดูแลพื้นที่อย่างเป็นกิจวัตร
+            การบริหารจัดการพื้นที่เกษตรที่ดีนั้นจะทำให้เราเข้าใจธรรมชาติของพืชที่ปลูก ช่วงไหนที่พืชต้องให้น้ำ
+            ช่วงไหนที่พืชต้องการปุ๋ย ต้นไม้ใบหญ้าและฝนฟ้าจะเป็นผู้บอกเราเอง
+            อีกทั้งความเข้าใจบริบทแวดล้อมของพื้นที่นั้น ๆ ด้วย ความเข้าใจทั้งหลายนี้นั้นเมื่อประกอบรวมกันแล้ว
+            จะทำให้เราสามารถคิดและบริหารจัดการการทำเกษตรกรรมแปลงใหญ่ได้อย่างมีประสิทธิภาพ
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="quote-section">
+    <div class="content-container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0">
+          <img src="https://gepi.co.th/wp-content/uploads/2022/11/IMG_9849.jpg" alt="วิสัยทัศน์"
+            class="content-image" />
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <h2 class="section-title">วิสัยทัศน์ของเรา</h2>
+          <p class="quote-text">
+            เราคาดหวังในการสร้างเกษตรกรรมที่ไม่ต้องพึ่งพาสารเคมี เพื่อที่จะไม่ให้มีสารตกค้างส่งไปถึงลูกหลาน
+            เราไม่ต้องการให้มีการเผาทำลาย เพื่อที่จะไม่อยากจะเป็นส่วนหนึ่งของการสร้างมลพิษทางอากาศ
+            เราต้องการสร้างอาหารที่ดีเพื่อให้มีอาหารปศุสัตว์ที่ปลอดภัยจนเกิดเป็นความมั่นคงทางอาหาร
+            อีกทั้งมีความต้องการที่จะเป็นผู้นำในด้านการผลิตวัตถุดิบเพื่อเป็นพลังงานชีวมวล (Biomass Energy)
+            เพื่อสร้างความยั่งยืนทางพลังงานในแบบที่ไม่จำเป็นต้องไปตัดต้นไม้ใหญ่
+          </p>
+          <p class="quote-text">
+            โดยสิ่งทั้งหลายทั้งปวงนี้นั้น จะไม่สามารถเกิดขึ้นได้เลยหากเราไม่สร้างเครือข่ายเกษตรกรให้มีหลักคิดเดียวกัน
+            องค์กรเราจึงมุ่งเน้นไปที่การทำงานร่วมกับชุมชนและเครือข่ายเกษตรกร และเมื่อเรามีเป้าหมายเดียวกันแล้ว
+            การทำเกษตรกรรมจะไม่ใช่เพียงการทำธุรกิจ แต่นั่นคือ “เราจะการสร้างความยั่งยืนร่วมกัน”
+          </p>
+          <p class="author-name">
+            - ไมตรี โต๊ะประดู่ (ผู้ก่อตั้ง / กรรมการผู้จัดการ)
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
